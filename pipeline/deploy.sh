@@ -8,6 +8,9 @@ rm -rf adil_webserver/
 
 git clone  "https://$MACHINE_USER_TOKEN@github.com/adilBouqfoul/adil_webserver.git"
 
+  git config --global user.email "user@machine.com"
+  git config --global user.name "Machine User"
+
 cd adil_webserver/
 
 cp ../index.html .
