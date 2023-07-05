@@ -18,8 +18,8 @@ jobs:
   # This workflow contains a single job called "build"
   pipeline_all:
     env:
-      MACHINE_USER_NAME: ${{ secrets:MACHINE_USER_NAME }}
-      MACHINE_USER_TOKEN: ${{ secrets:MACHINE_USER_TOKEN }}
+      MACHINE_USER_NAME: ${{ secrets.MACHINE_USER_NAME }}
+      MACHINE_USER_TOKEN: ${{ secrets.MACHINE_USER_TOKEN }}
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
